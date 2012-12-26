@@ -1,8 +1,9 @@
 `timescale 1 ns / 10 ps
-
+/*
 interface testSignals();
   logic test1;
 endinterface
+*/
 module module_tb();
 
 reg clk;
@@ -23,7 +24,8 @@ initial
 //   $finish;
       end  
 
-testSignals if_testSignals();
+//testSignals if_testSignals();
+testSignals if_testSignals(.clock(clk), .resetb(rstb));
 
 wire test_tb1 = if_testSignals.test1;
 
