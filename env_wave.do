@@ -4,7 +4,7 @@ add wave -noupdate /module_tb/clk
 add wave -noupdate /module_tb/rstb
 add wave -noupdate /module_tb/test_tb1
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {99560 ps} 0}
+WaveRestoreCursors {{Cursor 1} {392720 ps} 0}
 configure wave -namecolwidth 150
 configure wave -valuecolwidth 100
 configure wave -justifyvalue left
@@ -19,4 +19,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ps
 update
-WaveRestoreZoom {0 ps} {105 ns}
+WaveRestoreZoom {0 ps} {525 ns}
